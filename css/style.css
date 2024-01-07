@@ -1,10 +1,10 @@
-/*======================= all fonts here ======================*/
+/*======================================= all fonts here ===================================*/
 
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 
-/*================= all default style here ===================*/
+/*=============================== all default style here ==========================================*/
 
 * {
   margin: 0;
@@ -12,13 +12,20 @@
 }
 
 span {
-  color: #F00;
+  color: #f00;
 }
 
-h1,h3,h2 {
+h1,
+h3,
+h2 {
   font-family: "Merriweather";
 }
 
 p {
   font-family: "Inter";
+}
+
+hr {
+  border-top: 1px;
+  border-color: rgba(255, 255, 255, 0.15);
 }

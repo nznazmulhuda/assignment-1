@@ -1,0 +1,93 @@
+/*================================================== only footer is here =============================================*/
+
+footer {
+  width: 100%;
+  height: 609px;
+  background: #070211;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .footer-container {
+  width: 1320px;
+  margin: 0 auto;
+}
+/*======================= footer top part =================================*/
+
+footer .top {
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+footer .top > address > p {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+footer .top .contact {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
+}
+
+footer .top .number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+footer .top .mail {
+  display: flex;
+  gap: 16px;
+}
+
+footer .top .number,
+.mail > p {
+  color: #fff;
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 40px;
+}
+
+/*========================== footer middel or social icon here ===========================*/
+
+footer .social-icon {
+  width: 1320px;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin: 48px 0;
+}
+
+footer .social-icon img {
+  width: 64px;
+  height: 64px;
+}
+
+/*======================== footer bottom is here ================================*/
+
+footer .bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px auto 120px 0;
+}
+
+footer .bottom p {
+  color: #fff;
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

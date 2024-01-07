@@ -1,6 +1,6 @@
-/*========================== all body, main style is here ===============================*/
+/*========================================== all body, main style is here =================================================*/
 
-/*======= banner section here =======*/
+/*============================= banner section here =======================*/
 
 main .banner {
   width: 1320px;
@@ -10,7 +10,7 @@ main .banner {
   margin: 50px auto;
 }
 
-main .bgColor {
+main .banner .bgColor {
   width: 1320px;
   height: 600px;
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
@@ -36,7 +36,7 @@ main .banner h1 {
   margin-top: 16px;
 }
 
-/*======= offer section here =======*/
+/*============================ offer section here ===================================*/
 
 main .offer {
   display: flex;
@@ -46,20 +46,20 @@ main .offer {
   margin: 70px auto;
 }
 
-main .title {
+main .offer .title {
   font-size: 88px;
   font-weight: 700;
   text-align: center;
 }
 
-main .disc {
+main .offer .disc {
   margin-top: 48px;
   font-size: 24px;
   font-weight: 500;
   text-align: center;
 }
 
-main .cat {
+main .offer .cat {
   color: #070211;
   text-align: center;
   font-size: 48px;
@@ -68,7 +68,7 @@ main .cat {
   margin-bottom: 48px;
 }
 
-/*========== midnight section here =========*/
+/*============================= midnight section here =============================*/
 
 main .midnight {
   width: 1320px;
@@ -78,7 +78,7 @@ main .midnight {
   border-radius: 16px;
 }
 
-main .darkColor {
+main .midnight .darkColor {
   width: 1320px;
   height: 600px;
   border-radius: 16px;
@@ -88,7 +88,7 @@ main .darkColor {
   align-items: center;
 }
 
-main .content h1 {
+main .midnight .content h1 {
   max-width: 642px;
   color: #fff;
   font-size: 64px;
@@ -98,7 +98,7 @@ main .content h1 {
   padding-left: 126px;
 }
 
-main .content p {
+main .midnight .content p {
   max-width: 697px;
   color: rgba(255, 255, 255, 0.6);
   font-size: 18px;
@@ -107,7 +107,7 @@ main .content p {
   margin-bottom: 48px;
 }
 
-main .content a {
+main .midnight .content a {
   color: #fff;
   font-family: "Inter";
   font-size: 20px;
@@ -120,16 +120,12 @@ main .midnight .image {
   margin-right: 138px;
 }
 
-/* join now section here */
+/*====================== join now section here =========================*/
 
 main .join_now {
   width: 1320px;
   height: 482px;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 0, 0, 0.1) 0%,
-    rgba(255, 0, 0, 0) 100%
-  );
+  background: linear-gradient(180deg, rgba(255, 0, 0, 0.1) 0%, rgba(255, 0, 0, 0) 100%);
   margin: 120px auto;
   border-radius: 16px;
   display: flex;
@@ -156,7 +152,7 @@ main .join_now button {
   font-weight: 700;
 }
 
-/* bonus section here */
+/*===================================== bonus section here ==================================*/
 
 main .bonus {
   width: 1320px;
@@ -186,7 +182,7 @@ main .bonus p {
   font-weight: 400;
 }
 
-main .round {
+main .bonus .round {
   width: 450px;
   height: 450px;
   flex-shrink: 0;
@@ -197,12 +193,12 @@ main .round {
   align-items: center;
 }
 
-main .round img {
+main .bonus .round img {
   width: 364.844px;
   height: 364.844px;
 }
 
-.bonus-3rd {
+main .bonus .bonus-3rd {
   display: flex;
   flex-direction: column;
   justify-content: baseline;
@@ -218,7 +214,7 @@ main .bonus .happy {
   height: 140px;
 }
 
-/* holiday section here */
+/*================================ holiday section here ======================================*/
 
 main .holiday {
   text-align: center;
@@ -281,7 +277,7 @@ main .holiday .red {
   margin-bottom: 120px;
 }
 
-/* portfolio section here */
+/*================================= portfolio section here ==================================*/
 
 main .portfolio {
   width: 1320px;
@@ -321,7 +317,7 @@ main .portfolio .images-section img {
   border-radius: 16px;
 }
 
-/* subscribe section here */
+/*================================= subscribe section here ===================================*/
 
 main .subscribe {
   width: 1320px;
@@ -375,12 +371,6 @@ main .subscribe input[type="email"] {
   color: rgba(7, 2, 17, 0.3);
   font-size: 18px;
   font-weight: 400;
-}
-
-main .subscribe input[type="email"]:focus {
-  outline: none !important;
-  border-color: #719ece;
-  box-shadow: 0 0 10px #719ece;
 }
 
 main .subscribe button {
