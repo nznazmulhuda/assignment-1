@@ -116,7 +116,7 @@ main .content a {
   text-decoration: none;
 }
 
-main .image {
+main .midnight .image {
   margin-right: 138px;
 }
 
@@ -242,5 +242,34 @@ main .holiday .disc {
   margin: 0 auto;
   font-size: 20px;
   color: rgba(7, 2, 17, 0.60);
+  margin-bottom: 64px;
 }
 
+main .holiday .images {
+  width: 1320px;
+  margin: 0 auto;
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  position: relative;
+}
+
+main .holiday .discount {
+  background-image: url("../resources/Rectangle_1.png");
+  background-repeat: no-repeat;
+  width: 429px;
+  height: 433px;
+  position: relative;
+}
+
+main .holiday .discount img {
+  position: absolute;
+  top: 60px;
+  left: -150px;
+}
+
+main .holiday .box {
+  position: absolute;
+  left: 60px;
+  top: 50px;
+}
