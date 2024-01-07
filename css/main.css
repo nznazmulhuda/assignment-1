@@ -1,0 +1,246 @@
+/*========================== all body, main style is here ===============================*/
+
+/*======= banner section here =======*/
+
+main .banner {
+  width: 1320px;
+  height: 600px;
+  border-radius: 16px;
+  background-image: url("../resources/Banner_Image.png");
+  margin: 50px auto;
+}
+
+main .bgColor {
+  width: 1320px;
+  height: 600px;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+}
+
+main .banner h3 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+main .banner h1 {
+  max-width: 632px;
+  text-align: center;
+  font-size: 72px;
+  font-weight: 900;
+  color: #fff;
+  margin-top: 16px;
+}
+
+/*======= offer section here =======*/
+
+main .offer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 70px auto;
+}
+
+main .title {
+  font-size: 88px;
+  font-weight: 700;
+  text-align: center;
+}
+
+main .disc {
+  margin-top: 48px;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+
+main .cat {
+  color: #070211;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+
+/*========== midnight section here =========*/
+
+main .midnight {
+  width: 1320px;
+  height: 600px;
+  background-image: url("../resources/Vectorrr.png");
+  margin: 120px auto;
+  border-radius: 16px;
+}
+
+main .darkColor {
+  width: 1320px;
+  height: 600px;
+  border-radius: 16px;
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .content h1 {
+  max-width: 642px;
+  color: #fff;
+  font-size: 64px;
+  font-weight: 900;
+  letter-spacing: 7.04px;
+  margin-bottom: 24px;
+  padding-left: 126px;
+}
+
+main .content p {
+  max-width: 697px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 126px;
+  margin-bottom: 48px;
+}
+
+main .content a {
+  color: #fff;
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 700;
+  padding-left: 158px;
+  text-decoration: none;
+}
+
+main .image {
+  margin-right: 138px;
+}
+
+/* join now section here */
+
+main .join_now {
+  width: 1320px;
+  height: 482px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  margin: 120px auto;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .join_now p {
+  font-size: 32px;
+  color: 070211;
+  font-weight: 600;
+  padding-bottom: 16px;
+}
+
+main .join_now button {
+  margin-top: 40px;
+  padding: 16px 32px;
+  border-radius: 8px;
+  background: #f00;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* bonus section here */
+
+main .bonus {
+  width: 1320px;
+  height: 482px;
+  display: flex;
+  justify-content: center;
+  gap: 118px;
+  align-items: center;
+  margin: 120px auto;
+}
+
+main .bonus span {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+main .bonus h3 {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 22px;
+}
+
+main .bonus p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+main .round {
+  width: 450px;
+  height: 450px;
+  flex-shrink: 0;
+  border-radius: 450px;
+  border: 15px solid #f00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .round img {
+  width: 364.844px;
+  height: 364.844px;
+}
+
+.bonus-3rd {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: baseline;
+}
+
+main .bonus .bonus-3rd p {
+  margin-bottom: 16px;
+}
+
+main .bonus .happy {
+  width: 140px; 
+  height: 140px;
+}
+
+/* holiday section here */
+
+main .holiday {
+  text-align: center;
+}
+
+main .holiday > p {
+  color: #070211;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+main .holiday h1 {
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 28px;
+}
+
+main .holiday .disc {
+  max-width: 1068px;
+  margin: 0 auto;
+  font-size: 20px;
+  color: rgba(7, 2, 17, 0.60);
+}
+
