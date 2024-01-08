@@ -104,7 +104,7 @@ main .midnight .content p {
   font-size: 18px;
   font-weight: 400;
   padding-left: 126px;
-  margin-bottom: 48px;
+  margin-bottom: 30px;
 }
 
 main .midnight .content a {
@@ -308,12 +308,15 @@ main .portfolio .dis {
 
 main .portfolio .images-section {
   margin-bottom: 120px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 16px;
+  row-gap: 16px;
 }
 
 main .portfolio .images-section img {
   width: 424px;
   height: 450px;
-  padding: 0 12px 12px 0;
   border-radius: 16px;
 }
 
