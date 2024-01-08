@@ -46,6 +46,8 @@ footer .top .number {
 
 footer .top .mail {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 16px;
 }
 
@@ -69,7 +71,7 @@ footer .social-icon {
   margin: 48px 0;
 }
 
-footer .social-icon img {
+footer .social-icon .mail img {
   width: 64px;
   height: 64px;
 }
