@@ -310,7 +310,6 @@ main .portfolio .images-section {
   margin-bottom: 120px;
   display: grid;
   grid-template-columns: auto auto auto;
-  column-gap: 16px;
   row-gap: 16px;
 }
 
